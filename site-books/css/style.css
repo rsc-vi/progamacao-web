@@ -1,5 +1,6 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins",
+ sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
 }
@@ -106,7 +107,7 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
-  color: #e7d619;
+  color: #086719;
 }
 
 a,
@@ -332,19 +333,19 @@ a:focus {
 .slider_section .detail-box {
   margin: 45px 5% 0 5%;
   padding-bottom: 45px;
-  border-right: 2px solid #e7d619;
+  border-right: 2px solid #066806;
 }
 
 .slider_section .detail-box h1 {
   font-weight: bold;
-  color: #010001;
+  color: #198236;
   font-size: 3rem;
   padding-bottom: 15px;
   position: relative;
 }
 
 .slider_section .detail-box h1 span {
-  color: #e7d619;
+  color: #e71995;
 }
 
 .slider_section .detail-box .btn-box {
@@ -381,7 +382,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 10px 0px;
-  background-color: #e7d619;
+  background-color: #26b13f;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -486,7 +487,7 @@ a:focus {
 }
 
 .animal_section {
-  background-image: url(../images/animal-bg.jpg);
+  background-image: url(../images/fundoblue.png);
   background-size: cover;
   color: #ffffff;
 }
@@ -623,8 +624,9 @@ a:focus {
   width: 100%;
   position: relative;
   z-index: 2;
-}
+} 
 
+/* TEXTOS CRUEIS DEMAIS  */
 .pet_section .img-box::before {
   content: "";
   position: absolute;
@@ -632,9 +634,9 @@ a:focus {
   left: -145px;
   width: 100%;
   height: 110%;
-  background-image: url(../images/pet-bg.png);
   z-index: 1;
-  background-repeat: no-repeat;
+ 
+  background-size: cover;
 }
 
 .pet_section .detail-box p {
@@ -1013,7 +1015,8 @@ a:focus {
   background-color: #0a2050;
   color: #ffffff;
   padding: 40px 0 75px 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",
+ sans-serif;
 }
 
 .info_section .row > div {
